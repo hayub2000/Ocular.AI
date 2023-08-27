@@ -1,0 +1,535 @@
+/* Playfair for ocular.ai */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');  
+
+/* For Details */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cards-center{
+  /* max-height:600px; */
+  /* min-height:600px; */
+ /* border-radius:2px solid green; */
+ flex-wrap: wrap;
+ 
+ /* Change */
+ border:2px solid red;
+ flex-direction: row;
+ /* height: 50%; */
+ /* height:60vh; */
+ width: fit-content;
+ margin-left: 64%;
+ margin-top: 80px;
+ /* padding-left: 65%; */
+ align-items: center;
+ justify-content: center;
+ }
+
+.cards-center2{
+  max-height:600px;
+  min-height:600px;
+ /* border:2px solid green; */
+ flex-wrap: wrap;
+ z-index: 0;
+
+}
+
+.mar{
+  margin: right 12rem;
+}
+
+.arrow {
+  border: solid rgb(236, 207, 207);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+video {
+  position:absolute;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* object-fit:cover;*/
+} 
+
+.container2{
+  /* border: 2px solid yellow; */
+  padding-top: 0px;
+  
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.container2 p{
+  border: 2px solid green;
+  margin-top: 80px;
+  width:fit-content;
+  margin-left:58%;
+  color:rgb(250, 250, 250);
+  font-family: 'Nunito sans';
+}
+
+.container2 ul{
+  /* border: 2px solid green; */
+  width:fit-content;
+  margin-left:58%;
+  color:rgb(250, 250, 250);
+  font-family: 'Nunito sans';
+}
+
+.clr:hover {
+  color:rgb(238, 231, 231);
+  cursor:pointer;
+}
+
+
+.brd {
+  -webkit-text-stroke: 1.5px rgb(236, 207, 207);
+  /* color: rgb(241, 187, 187); */
+  /* color: rgb(189, 12, 12); */
+  color: rgb(216, 102, 9);
+  
+  /* Change  */
+  /* border: 2px solid red; */
+  width: fit-content;
+  margin-left: 60%;
+  /* padding-right: 0; */
+  /* right: -40px;   */
+  /* padding-left: 60%; */
+  padding-top: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'playfair';
+
+}
+
+
+.sc{
+  margin-left:7rem;
+  color: rgb(216, 102, 9);
+  -webkit-text-stroke: 0.3px rgb(236, 207, 207);
+  background-color: rgb(39, 38, 38);
+  width:fit-content;
+
+}
+
+.sc2{
+  /* margin-left:7rem; */
+  background-color: rgb(216, 102, 9);
+  -webkit-text-stroke: 0.3px rgb(236, 207, 207);
+  color: rgb(240, 229, 216);
+  width: 100px;
+  border-radius:5px;
+  border-color: rgb(236, 207, 207);
+}
+
+/* For Mobile Screen  */
+ @media (max-aspect-ratio:16/9) {
+  .vid {
+    /* width: auto;
+    height:180%; */  /*Initial*/ 
+
+    /* width:auto;
+    height: 100vh; */
+    /* height:fit-content; */
+    width: 100vw;
+    height: 200vh;
+    max-width: 100%;
+    max-height: 140vh;
+    object-fit: cover;
+    flex:1;
+  }
+}
+
+
+/* suggested by chatgpt:  which means that the height of the screen cannot be more than 9/16 times the width of the screen. This is commonly used in responsive design to ensure that the layout adapts to different screen sizes and orientations. */
+/* @media (max-aspect-ratio: 9/16) {
+  .vid {
+    height: 100vh;
+    width: 200vw;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+} */
+
+/* For laptop Screen  */
+@media (min-aspect-ratio: 16/9) {
+  .vid {
+    width: 100%;
+    height: auto;
+  }
+} 
+
+
+/* For Scary page  */
+
+.box {
+  margin-bottom: 13px;
+  width: 50%;
+  opacity: 70%;
+  border-radius: 10px;
+  /* box-shadow:0 0.2rem 1.2rem rgba(235, 18, 18, 0.911) ; */
+  box-shadow: 0 0.2rem 2rem rgba(224, 157, 33, 0.911);
+  /* box-shadow: 0 0.2rem 1.2rem rgba(190, 184, 181, 0.911); */
+  box-shadow: 0 0.2rem 1.2rem rgb(199, 51, 51);
+
+  /* background-color: rgb(201, 5, 5); */
+  /* background-color: rgb(196, 94, 94); */ 
+  /* background-color: rgb(185, 31, 31); */  /* LAST ONE*/
+  background-color: rgb(36, 33, 36);
+  border: 3px solid;
+  
+  color: azure;
+  padding-top: 10px;
+  /* border: 2px solid greenyellow; */
+  /* font-family: Butcherman; */
+  /* font-family: Covered By Your Grace; */
+  /* font-family: Gloria Hallelujah; */
+  /* font-family: Shadows Into Light; */
+  /* font-family: creepster; */
+  /* -webkit-text-stroke: 0.2px rgb(53, 50, 50); */
+  -webkit-text-stroke: 0.5px rgb(226, 108, 29);
+  font-family: henny penny;
+  font-size:  20px;
+  resize: none;
+}
+
+.responsebox {
+
+  width: 50%;
+  opacity: 70%;
+  border-radius: 10px;
+  /* box-shadow:0 0.2rem 1.2rem rgba(235, 18, 18, 0.911) ; */
+  box-shadow: 0 0.2rem 2rem rgba(224, 157, 33, 0.911);
+  /* box-shadow: 0 0.2rem 1.2rem rgba(190, 184, 181, 0.911); */
+  box-shadow: 0 0.2rem 1.2rem rgb(199, 51, 51);
+
+  /* background-color: rgb(201, 5, 5); */
+  /* background-color: rgb(196, 94, 94); */ 
+  /* background-color: rgb(185, 31, 31); */  /* LAST ONE*/
+  background-color: rgb(36, 33, 36);
+  border: 3px solid;
+
+  color: azure;
+  padding-top: 10px;
+  /* border: 2px solid greenyellow; */
+  /* font-family: Butcherman; */
+  /* font-family: Covered By Your Grace; */
+  /* font-family: Gloria Hallelujah; */
+  /* font-family: Shadows Into Light; */
+  /* font-family: creepster; */
+  /* -webkit-text-stroke: 0.2px rgb(53, 50, 50); */
+  -webkit-text-stroke: 0.5px rgb(226, 108, 29);
+  font-family: henny penny;
+  font-size:  20px;
+  resize: none;
+}
+
+.box2scary{
+  margin-bottom: 13px;
+  direction: rtl;
+  /* unicode-bidi: bidi-override; */
+  width: 50%;
+  opacity: 70%;
+  border-radius: 10px;
+  /* box-shadow:0 0.2rem 1.2rem rgba(235, 18, 18, 0.911) ; */
+  box-shadow: 0 0.2rem 2rem rgba(224, 157, 33, 0.911);
+  
+  box-shadow: 0 0.2rem 1.2rem rgb(199, 51, 51);
+  /* background-color: rgb(201, 5, 5); */
+  /* background-color: rgb(185, 31, 31); */
+  background-color: rgb(36, 33, 36);
+  border: 3px solid;
+  color: azure;
+  padding-top: 10px;
+  /* border: 2px solid greenyellow; */
+  /* font-family: Butcherman; */
+  /* font-family: Covered By Your Grace; */
+  /* font-family: Gloria Hallelujah; */
+  /* font-family: Shadows Into Light; */
+  /* font-family: creepster; */
+  /* -webkit-text-stroke: 0.2px rgb(53, 50, 50); */
+  
+  -webkit-text-stroke: 0.5px rgb(226, 108, 29);
+  font-family: henny penny;
+  font-size:  20px;
+  resize: none;
+}
+
+::placeholder {
+  /* color: rgb(39, 37, 37); */
+  color: rgb(250, 249, 249);
+  opacity: 1;
+
+}
+
+.dir {
+  flex-direction: column;
+  /* margin-top: 20px; */
+  /* top: 0px; */
+  /* border:2px solid yellow; */
+  /* width:75%;
+  margin-left: 200px;
+  margin-top: 0px; */
+
+}
+
+.genbutton{
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  padding:20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn {
+  /* background-color: rgb(218, 99, 2); */
+  background-color: rgb(24, 23, 22);
+  margin-top: 14px;
+  /* border:2px solid rgb(94, 36, 9); */
+  /* box-shadow: 0 0.2rem 1.2rem rgba(224, 157, 33, 0.911); */
+  box-shadow: 0 0.2rem 1.2rem rgba(190, 184, 181, 0.911);
+  margin-left: 15px; 
+  margin-right: 15px;
+  /* margin:30px; */
+  /* justify-content: space-between; */
+  /* font-family: creepster; */
+  font-family: henny penny;
+  /* border: 2px solid greenyellow; */
+  /* border: 2px solid rgb(235, 106, 31); */
+  border: 2px solid rgb(241, 109, 32);
+  color:azure;
+  /* color:red; */
+}
+
+.btn:hover {
+  box-shadow: 0 0rem 0rem;
+  color: red;
+}
+
+.mulbtn {
+  flex-direction: row;
+  /* border: 2px solid greenyellow; */
+  /* width:180px; */
+  margin-top: 40px;
+  padding-left: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+/* hbtn is for upper buttons like copy,download etc */
+.hbtn {
+  margin-right: 80px;
+  opacity:30%;
+  
+}
+
+.hbtn:hover{
+  /* background-color: rgb(218, 99, 2); */
+  background-color: rgb(24, 23, 22);
+  margin-top: 14px;
+  /* border:2px solid rgb(94, 36, 9); */
+  /* box-shadow: 0 0.2rem 1.2rem rgba(224, 157, 33, 0.911); */
+  box-shadow: 0 0.2rem 1.2rem rgba(190, 184, 181, 0.911);
+  /* font-family: creepster; */
+  font-family: henny penny;
+  /* border: 2px solid greenyellow; */
+  border: 2px solid rgb(241, 109, 32);
+  opacity:100%;
+  color:red;
+}
+
+
+.popupbox{
+  top:0px;
+  display: flex;
+  /* border:2px solid olivedrab; */
+  z-index: 9990;
+  height: 100vh;
+  width:100%;
+  background-color: rgba(100, 97, 92,0.9);
+  position: fixed;
+}
+.popup{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  height:fit-content;
+  width:30%;
+  /* width:fit-content; */
+  padding:10px;
+  background-color: rgb(36, 33, 36);
+  justify-content: center;
+  align-items: center;
+  /* z-index: 2; */
+  border: 2px solid; 
+  /* border-color: transparent; */
+  border-radius: 10px;
+  font-family: henny penny;
+  color: white;
+  -webkit-text-stroke: 0.5px rgb(199, 51, 51);
+  box-shadow: 0 0.2rem 1.2rem rgba(190, 184, 181, 0.911);
+}
+.loading{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  height:fit-content;
+  width:30%;
+  /* width:fit-content; */
+  padding:10px;
+  /* background-color: rgb(28, 223, 28); */
+  justify-content: center;
+  align-items: center;
+  /* z-index: 2; */
+  /* border: 2px solid;  */
+  /* border-color: transparent; */
+  border-radius: 10px;
+  font-family: henny penny;
+  /* color: white;
+  color: rgb(236, 17, 17); */
+  color: rgb(241, 109, 32);
+  
+  /* -webkit-text-stroke: 0.5px rgb(199, 51, 51); */
+  -webkit-text-stroke: 0.5px rgb(238, 230, 230);
+  /* box-shadow: 0 0.2rem 1.2rem rgba(190, 184, 181, 0.911); */
+  opacity: 1;
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .popup {
+    width: 70%;
+  }
+} 
+
+.imbabtn {
+  flex-direction: row;
+  /* border: 2px solid yellow; */
+  /* width:180px; */
+  margin-top: 40px;
+  padding-left: 20px;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+
+.imagecontainer{
+  /* border: 2px solid green; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin:15px;
+  justify-content: center;
+
+}
+
+.images{
+  height: 120px;
+  width:180px;
+  margin:60px;
+  border: 2px solid ;
+  /* background-color: rgb(36, 33, 36); */
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0.2rem 1.2rem rgba(190, 184, 181, 0.911);
+  border-color: white;
+}
+
+
+.crouselimages{
+  height: 300px;
+  width:450px;
+  margin:60px;
+  border: 2px solid ;
+  /* background-color: rgb(36, 33, 36); */
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0.2rem 1.2rem rgba(190, 184, 181, 0.911);
+  border-color: white;
+}
+
+.imgpopupbox{
+  top:0px;
+  display: flex;
+  /* border:2px solid olivedrab; */
+  z-index: 9990;
+  height: 100vh;
+  width:100%;
+  background-color: rgba(100, 97, 92,0.9);
+  position: fixed;
+  /* opacity:0.3; */
+}
+
+.imgpopup{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  height:fit-content;
+  width:30%;
+  /* width:fit-content; */
+  padding:10px;
+  /* background-color: rgb(36, 33, 36); */
+  justify-content: center;
+  align-items: center;
+  /* z-index: 2; */
+  /* border: 2px solid;  */
+  /* border-color: transparent; */
+  /* border-radius: 10px; */
+  font-family: henny penny;
+  font-size: 130%;
+  color: white;
+  -webkit-text-stroke: 0.5px rgb(199, 51, 51);
+
+  /* box-shadow: 0 0.2rem 1.2rem rgba(190, 184, 181, 0.911); */
+}
+
+
+
+
