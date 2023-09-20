@@ -50,17 +50,18 @@ A system that takes an incomplete story as input and suggests story while keepin
 
 
 #### (iii)
-![Second page iv](https://github.com/hayub2000/Ocular.AI/assets/90406573/20db74ae-4611-4654-833b-cbf319e33add)
+![Second page vi](https://github.com/hayub2000/Ocular.AI/assets/90406573/233cabe2-ba17-40d1-82c0-0d2437795380)
 
 
 
 #### (iv)
-![Second page v](https://github.com/hayub2000/Ocular.AI/assets/90406573/d05b0299-1a0d-4b60-8a9b-6607c3ccfb61)
+![Second page iv](https://github.com/hayub2000/Ocular.AI/assets/90406573/20db74ae-4611-4654-833b-cbf319e33add)
 
 
 
 #### (v)
-![Second page vi](https://github.com/hayub2000/Ocular.AI/assets/90406573/233cabe2-ba17-40d1-82c0-0d2437795380)
+![Second page v](https://github.com/hayub2000/Ocular.AI/assets/90406573/d05b0299-1a0d-4b60-8a9b-6607c3ccfb61)
+
 
 
 
