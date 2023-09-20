@@ -30,17 +30,37 @@ A system that takes an incomplete story as input and suggests story while keepin
 
 ## Frontend Pages
 
-### Home Page
+### - Home Page
+
+
 ![Second page](https://github.com/hayub2000/Ocular.AI/assets/90406573/e75ff992-0acc-41c5-aa03-bc8251c1f949)
 
-### Story Generation Page
+### - Story Generation Page
+
+
+
+#### i
 ![Second page ii](https://github.com/hayub2000/Ocular.AI/assets/90406573/b7dd415a-1adc-4099-a0d7-88ed98e5dbbc)
 
 
-- ![Second page iii](https://github.com/hayub2000/Ocular.AI/assets/90406573/85de14e4-8865-442d-b9f1-a6f7285d732c)
-- ![Second page iv](https://github.com/hayub2000/Ocular.AI/assets/90406573/20db74ae-4611-4654-833b-cbf319e33add)
-- ![Second page v](https://github.com/hayub2000/Ocular.AI/assets/90406573/d05b0299-1a0d-4b60-8a9b-6607c3ccfb61)
-- ![Second page vi](https://github.com/hayub2000/Ocular.AI/assets/90406573/233cabe2-ba17-40d1-82c0-0d2437795380)
+
+#### ii
+![Second page iii](https://github.com/hayub2000/Ocular.AI/assets/90406573/85de14e4-8865-442d-b9f1-a6f7285d732c)
+
+
+
+#### iii
+![Second page iv](https://github.com/hayub2000/Ocular.AI/assets/90406573/20db74ae-4611-4654-833b-cbf319e33add)
+
+
+
+#### iv
+![Second page v](https://github.com/hayub2000/Ocular.AI/assets/90406573/d05b0299-1a0d-4b60-8a9b-6607c3ccfb61)
+
+
+
+#### v
+![Second page vi](https://github.com/hayub2000/Ocular.AI/assets/90406573/233cabe2-ba17-40d1-82c0-0d2437795380)
 
 
 
